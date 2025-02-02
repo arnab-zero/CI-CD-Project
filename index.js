@@ -19,6 +19,7 @@ function add(a, b) {
   if (isNaN(a) || isNaN(b)) {
     return "Invalid Input";
   }
+// this is a comment
 
   a = parseInt(a);
   b = parseInt(b);
