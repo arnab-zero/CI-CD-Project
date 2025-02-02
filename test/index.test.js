@@ -10,6 +10,7 @@ it('should return Hello World message and app version', async () => {
     app_version: '1' 
   });
 });
+// hi
 
 it('should return the correct sum of two numbers', async () => {
   const res = await request(app).get('/add/5/10');
